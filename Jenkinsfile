@@ -3,7 +3,7 @@ pipeline {
   stages {
    stage ('git repo') {
     steps {
-    echo 'https://github.com/gellaboina/pipeline.git'
+    git clone 'https://github.com/gellaboina/sample-java-programs.git'
     }
    }
   }
